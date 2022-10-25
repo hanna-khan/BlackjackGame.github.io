@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 5 - BLACKJACK</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Challenge 5 - BLACKJACK</h1>
+      <h3><span id="blackjack-result">Let's Play</span></h3>
+      <div class="flexbox-row1">
+        <div id="your-box">
+          <h2>You: <span id="your-blackjack-result">0</span></h2>
+        </div>
+        <div id="dealer-box">
+          <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+        </div>
+      </div>
+      <div class="flexbox-row2">
+        <div>
+          <button id="blackjack-hit-btn" class="btn-lg mr-2 btn btn-primary">
+            Hit</button
+          ><button id="blackjack-stand-btn" class="btn-lg mr-2 btn btn-warning">
+            Stand</button
+          ><button id="blackjack-deal-btn" class="btn-lg mr-2 btn btn-danger">
+            Deal
+          </button>
+        </div>
+      </div>
+      <div class="flexbox-row3">
+        <table style="border: 1px solid black">
+          <tr>
+            <th>Wins</th>
+            <th>Loses</th>
+            <th>Drews</th>
+          </tr>
+          <tr>
+            <td><span id="wins"></span> </td>
+            <td><span id="loses"></span> </td>
+            <td><span id="draws"></span> </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

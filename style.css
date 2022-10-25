@@ -1,0 +1,53 @@
+.flex {
+  display: flex;
+}
+.col {
+  justify-content: space-between;
+}
+.container {
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 !important;
+}
+.flexbox-row1,
+.flexbox-row2,
+.flexbox-row3 {
+  justify-content: space-around;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.flexbox-row1,
+.flexbox-row2 {
+  background: url("https://ie2-gfebf.cdnppb.net/mexchangeblackjack/turbo/17/assets/gameView/tableBackground.png?v17");
+  background-image: url("https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=20&m=453187915&s=612x612&w=0&h=yDGWRSaErS7B6MPaJ8g9PyaH0JqwGk4IfwnKpnsNYEQ=");
+  color: #fff;
+}
+.flexbox-row2 button {
+  border: 1px solid black;
+  padding: 10px;
+}
+.flexbox-row1 img {
+  width: 25%;
+  padding: 10px;
+}
+.flexbox-row2 div {
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+.flexbox-row1 div {
+  flex: 1;
+  border: 1px solid black;
+  padding: 10px;
+  height: 350px;
+  text-align: center;
+}
+table,
+td,
+th {
+  padding: 10px;
+  border: 1px solid black;
+}
